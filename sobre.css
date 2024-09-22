@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-image: url(img/Arcane.S01E03.The.Base.Violence.Necessary.for.Change38.53.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-flexbox-container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-ul li {
+    padding: 15px;
+}
+
+.navbar-ul a {
+    color: white;
+    text-decoration: none;
+}
+
+main.sobre {
+    flex: 1;
+    padding: 20px;
+}
+
+.sobre h1 {
+    text-align: center;
+    color: yellowgreen;
+    margin-bottom: 20px;
+}
+
+.sobre section {
+    margin-bottom: 20px;
+}
+
+.sobre section h2 {
+    text-align: center;
+    color: aqua;
+}
+
+.sobre section p {
+    text-align: justify;
+    color: lightyellow;
+    line-height: 1.6;
+}
+
+.sobre ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: lightcoral;
+}
+
+.sobre ul li {
+    margin-bottom: 10px;
+}
+
+.sobre article h3 {
+    color: lightblue;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    color: blueviolet;
+    padding: 10px;
+}
